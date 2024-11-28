@@ -1,0 +1,170 @@
+/* login.css */  
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../img/page-title-bg.webp');
+  }
+  
+  .login-form {
+    width: 350px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .form-input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .form-button {
+    width: 100%;
+    padding: 10px;
+    background-color:#ff9800;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .form-button:hover {
+    background-color:#28a745;
+  }
+  
+  .form-divider {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 14px;
+    color: #888;
+  }
+
+  /* Center the form container using flexbox */
+.forgot-password-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../img/page-title-bg.webp');
+  }
+
+  /* style the forgot password on the login page */
+  .forgot-password-link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .forgot-password-link:hover {
+    text-decoration: underline;
+  }
+  
+  .form-options {
+    margin-top: 10px;
+    text-align: right;
+  }  
+  
+  /* Style the form itself */
+  .forgot-password-form {
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Style the form heading */
+  .forgot-password-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333333;
+  }
+  
+  /* Add spacing and styling to the description */
+  .forgot-password-form p {
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+    color: #666666;
+  }
+  
+  /* Add styling to input fields */
+  .forgot-password-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .forgot-password-form .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 0.95rem;
+  }
+  
+  /* Style the submit button */
+  .forgot-password-form .form-button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .forgot-password-form .form-button:hover {
+    background-color: #005000;
+  }  
+  
+  .google-login-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .google-login-button:hover {
+    background-color: #000000;
+  }
+  
